@@ -1,12 +1,7 @@
 "use client";
 
 import { createContext, useContext, useState } from "react";
-
-type Product = {
-  name: string;
-  price: number;
-  image: string;
-};
+import { Product } from "../data/products";
 
 type CartItem = Product & {
   quantity: number;

@@ -1,23 +1,6 @@
 import Navbar from "../components/Navbar";
 import ProductCard from "../components/ProductCard";
-
-const products = [
-  {
-    name: "Black T-Shirt",
-    price: 799,
-    image: "https://via.placeholder.com/300x400",
-  },
-  {
-    name: "White Hoodie",
-    price: 1499,
-    image: "https://via.placeholder.com/300x400",
-  },
-  {
-    name: "Blue Jeans",
-    price: 1999,
-    image: "https://via.placeholder.com/300x400",
-  },
-];
+import { products } from "../data/products";
 
 export default function Home() {
   return (
