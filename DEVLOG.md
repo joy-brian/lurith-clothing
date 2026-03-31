@@ -21,3 +21,5 @@
 - Removed static product data
 - Integrated dynamic ProductCard rendering
 - Fully migrated to Firestore for product management
+- Replaced static product lookup with Firestore fetch
+- Implemented dynamic product loading using document ID
